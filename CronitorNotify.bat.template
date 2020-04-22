@@ -1,0 +1,5 @@
+@echo off
+
+REM Replace the following "XXXXXX" with the actual Cronitor monitor code.
+REM Then rename this file to remove the ".template" file extension.
+powershell.exe -ExecutionPolicy RemoteSigned -Command %~dp0CronitorNotify.ps1 -MonitorCode XXXXXX
